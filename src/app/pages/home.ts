@@ -12,12 +12,12 @@ import { MatListModule } from '@angular/material/list';
       <mat-list role="list">
         @for (user of users; track user.id) {
           <mat-list-item>
-            {{user.username}} - {{user.name}}
+                {{user.username}} - {{user.name}}
           </mat-list-item>
         }
       </mat-list>
     <pre>
-     {{users | json}}
+          {{users | json}}
     </pre>
   </div>
   `,

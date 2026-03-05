@@ -6,7 +6,7 @@ import { Ciccione } from './ciccione';
   imports: [Ciccione],
   template: `
     <p class="ciccio">
-      queklo che voglio con tutti gli stili che voglio come lo voglio se voigkliuo
+      quello che voglio con tutti gli stili che voglio come lo voglio se voigkliuo
       <app-ciccione [nome]="valore" cognome="rossi"></app-ciccione>
       <img [src]="img">
     </p>

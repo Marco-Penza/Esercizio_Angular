@@ -9,10 +9,10 @@ import {MatButtonModule} from '@angular/material/button';
   template: `
     
   <div>
-    <button matButton [matMenuTriggerFor]="menu">Menu</button>
+    <button matButton [matMenuTriggerFor]="menu">Lista da mostrare</button>
     <mat-menu #menu>
-      <button mat-menu-item routerLink="home">HOME</button>
-      <button mat-menu-item routerLink="ciccio">CICCIO</button>
+      <button mat-menu-item routerLink="home">Primo</button>
+      <button mat-menu-item routerLink="ciccio">Secondo</button>
     </mat-menu>
   </div>
 

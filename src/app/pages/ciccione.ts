@@ -5,7 +5,7 @@ import { Component, Input } from '@angular/core';
   imports: [],
   template: `
     <p>
-      {{nome}}  - {{cognome}} FUNZUJONWE
+      {{nome}}  - {{cognome}} FUNZIONA - {{id}}
     </p>
   `,
   styles: ``,
@@ -17,4 +17,7 @@ export class Ciccione {
 
   @Input() 
   cognome = "";
+
+  @Input()
+  eta = "";
 }
